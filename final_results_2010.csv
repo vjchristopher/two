@@ -1,0 +1,119 @@
+Service_Area,Band,Winning_Price,Company_Name,Uplink_Start,Uplink_Stop,"Downlink_Start","Downlink_Stop"
+Delhi,2100,3316.93,Vodafone,1959,1964,2149,2154
+Delhi,2100,3316.93,Bharti Airtel,1969,1974,2159,2164
+Delhi,2100,3316.93,Reliance Telecom,1974,1979,2164,2169
+Mumbai,2100,3247.07,Reliance Telecom,1959,1964,2149,2154
+Mumbai,2100,3247.07,Vodafone,1969,1974,2159,2164
+Mumbai,2100,3247.07,Bharti Airtel,1974,1979,2164,2169
+Maharashtra,2100,1257.82,TTSL,1959,1964,2149,2154
+Maharashtra,2100,1257.82,Idea,1969,1974,2159,2164
+Maharashtra,2100,1257.82,Vodafone,1974,1979,2164,2169
+Gujarat,2100,1076.06,TTSL,1959,1964,2149,2154
+Gujarat,2100,1076.06,Vodafone,1969,1974,2159,2164
+Gujarat,2100,1076.06,Idea,1974,1979,2164,2169
+Andhra Pradesh,2100,1373.14,Bharti Airtel,1959,1964,2149,2154
+Andhra Pradesh,2100,1373.14,Idea,1969,1974,2159,2164
+Andhra Pradesh,2100,1373.14,Aircel,1974,1979,2164,2169
+Karnataka,2100,1579.91,TTSL,1959,1964,2149,2154
+Karnataka,2100,1579.91,Aircel,1969,1974,2159,2164
+Karnataka,2100,1579.91,Bharti Airtel,1974,1979,2164,2169
+Tamil Nadu,2100,1464.94,Bharti Airtel,1959,1964,2149,2154
+Tamil Nadu,2100,1464.94,Vodafone,1969,1974,2159,2164
+Tamil Nadu,2100,1464.94,Aircel,1974,1979,2164,2169
+Kolkata,2100,544.26,Vodafone,1959,1964,2149,2154
+Kolkata,2100,544.26,Aircel,1969,1974,2159,2164
+Kolkata,2100,544.26,Reliance Telecom,1974,1979,2164,2169
+Kerala,2100,312.48,Idea,1959,1964,2149,2154
+Kerala,2100,312.48,TTSL,1969,1974,2159,2164
+Kerala,2100,312.48,Aircel,1974,1979,2164,2169
+Punjab,2100,322.01,Idea,1959,1964,2149,2154
+Punjab,2100,322.01,Reliance Telecom,1964,1969,2154,2159
+Punjab,2100,322.01,TTSL,1969,1974,2159,2164
+Punjab,2100,322.01,Aircel,1974,1979,2164,2169
+Haryana,2100,222.58,Idea,1959,1964,2149,2154
+Haryana,2100,222.58,TTSL,1969,1974,2159,2164
+Haryana,2100,222.58,Vodafone,1974,1979,2164,2169
+Uttar Pradesh (E),2100,364.57,Aircel,1959,1964,2149,2154
+Uttar Pradesh (E),2100,364.57,Idea,1969,1974,2159,2164
+Uttar Pradesh (E),2100,364.57,Vodafone,1974,1979,2164,2169
+Uttar Pradesh (W),2100,514.04,Bharti Airtel,1959,1964,2149,2154
+Uttar Pradesh (W),2100,514.04,Idea,1969,1974,2159,2164
+Uttar Pradesh (W),2100,514.04,TTSL,1974,1979,2164,2169
+Rajasthan,2100,321.03,Reliance Telecom,1959,1964,2149,2154
+Rajasthan,2100,321.03,Bharti Airtel,1969,1974,2159,2164
+Rajasthan,2100,321.03,TTSL,1974,1979,2164,2169
+Madhya Pradesh,2100,258.36,Idea,1959,1964,2149,2154
+Madhya Pradesh,2100,258.36,Reliance Telecom,1969,1974,2159,2164
+Madhya Pradesh,2100,258.36,TTSL,1974,1979,2164,2169
+West Bengal,2100,123.63,Bharti Airtel,1959,1964,2149,2154
+West Bengal,2100,123.63,Reliance Telecom,1964,1969,2154,2159
+West Bengal,2100,123.63,Vodafone,1969,1974,2159,2164
+West Bengal,2100,123.63,Aircel,1974,1979,2164,2169
+Himachal Pradesh,2100,37.23,Bharti Airtel,1959,1964,2149,2154
+Himachal Pradesh,2100,37.23,STel,1964,1969,2154,2159
+Himachal Pradesh,2100,37.23,Idea,1969,1974,2159,2164
+Himachal Pradesh,2100,37.23,Reliance Telecom,1974,1979,2164,2169
+Bihar,2100,203.46,STel,1959,1964,2149,2154
+Bihar,2100,203.46,Bharti Airtel,1964,1969,2154,2159
+Bihar,2100,203.46,Reliance Telecom,1969,1974,2159,2164
+Bihar,2100,203.46,Aircel,1974,1979,2164,2169
+Orissa,2100,96.98,STel,1959,1964,2149,2154
+Orissa,2100,96.98,Aircel,1969,1974,2159,2164
+Orissa,2100,96.98,Reliance Telecom,1974,1979,2164,2169
+Assam,2100,41.48,Reliance Telecom,1959,1964,2149,2154
+Assam,2100,41.48,BhartiAirtel,1969,1974,2159,2164
+Assam,2100,41.48,Aircel,1974,1979,2164,2169
+North East,2100,42.3,Aircel,1959,1964,2149,2154
+North East,2100,42.3,BhartiAirtel,1969,1974,2159,2164
+North East,2100,42.3,Reliance Telecom,1974,1979,2164,2169
+Jammu & Kashmir,2100,30.3,Idea,1959,1964,2149,2154
+Jammu & Kashmir,2100,30.3,Aircel,1964,1969,2154,2159
+Jammu & Kashmir,2100,30.3,Reliance Telecom,1969,1974,2159,2164
+Jammu & Kashmir,2100,30.3,Bharti Airtel,1974,1979,2164,2169
+Delhi,2300,"2241.02",Infotel,2305,2325,,
+,,2241.02,Qualcomm,2327.5,2347.5,,
+Mumbai,2300,"2292.95",Infotel,2305,2325,,
+,,2292.95,Qualcomm,2327.5,2347.5,,
+Maharashtra,2300,"915.64",Bharti Airtel,2305,2325,,
+,,915.64,Infotel,2327.5,2347.5,,
+Gujarat,2300,"613.85",Infotel,2305,2325,,
+,,613.85,Tikona,2327.5,2347.5,,
+Andhra Pradesh,2300,"1059.12",Aircel,2302.5,2322.5,,
+,,1059.12,Infotel,2347.5,2367.5,,
+Karnataka,2300,"1543.25",Infotel,2302.5,2322.5,,
+,,1543.25,Bharti Airtel,2325,2345,,
+Tamil Nadu,2300,"2069.45",Infotel,2312.5,2332.5,,
+,,2069.45,Aircel,2335,2355,,
+Kolkata,2300,"523.20",Infotel,2305,2325,,
+,,523.2,Bharti Airtel,2332.5,2352.5,,
+Kerala,2300,"258.67",Infotel,2302.5,2322.5,,
+,,258.67,Qualcomm,2325,2345,,
+Punjab,2300,332.27,Bharti Airtel,2320,2340,,
+,,332.27,Infotel,2357.5,2377.5,,
+Haryana,2300,"119.90",Infotel,2322.5,2342.5,,
+,,119.9,Qualcomm,2362.5,2382.5,,
+Uttar Pradesh (E),2300,142.5,Tikona,2320,2340,,
+,,142.5,Infotel,2357.5,2377.5,,
+Uttar Pradesh (W),2300,"183.87",Tikona,2320,2340,,
+,,183.87,Infotel,2357.5,2377.5,,
+Rajasthan,2300,"97.32",Tikona,2320,2340,,
+,,97.32,Infotel,2357.5,2377.5,,
+Madhya Pradesh,2300,124.66,Augere,2302.5,2322.5,,
+,,"
+124.66",Infotel,2332.5,2352.5,,
+West Bengal,2300,70.97,Infotel,2305,2325,,
+,,"
+70.97",Aircel,2332.5,2352.5,,
+Himachal Pradesh,2300,"20.66",Tikona,2322.5,2342.5,,
+,,20.66,Infotel,2345,2365,,
+Bihar,2300,"99.28",Infotel,2302.5,2322.5,,
+,,99.28,Aircel,2335,2355,,
+Orissa,2300,"63.63",Aircel,2302.5,2322.5,,
+,,63.63,Infotel,2335,2355,,
+Assam,2300,33.02,Aircel,2302.5,2322.5,,
+,,"
+33.02",Infotel,2325,2345,,
+North East,2300,"21.27",Infotel,2302.5,2322.5,,
+,,21.27,Aircel,2325,2345,,
+Jammu & Kashmir,2300,21.27,Aircel,2340,2360,,
+,,21.27,Infotel,2380,2400,,
