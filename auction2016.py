@@ -45,7 +45,7 @@ def app():
 
     with bands:       
         #dataframe for dispalying the LSA names where spectrum was sold
-        st.markdown("#### :man-cartwheeling: The auctioned bands which were :green[sold] ; which were :red[not sold :anguished:]")
+        st.markdown("#### :man-cartwheeling: The bands which were :green[sold] ; few which were :red[not sold :anguished:]")
         df_bands=pd.DataFrame()
         #st.write(type(bands))
         df_bands['Bands']=spectrum_bands
