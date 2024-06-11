@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import plotly_express as px
 def app():
     linkedinlink = '[DoT Website](https://dot.gov.in/spectrum-management/2463)'
     auction_timetable='[Auction Time Table](https://dot.gov.in/sites/default/files/Amendment%20of%20Time%20Table%20of%20Auction%20%281%29_0.pdf)'
@@ -73,7 +74,19 @@ def app():
             .drop_duplicates(subset=['Service_Area','Band','Company_Name']).reset_index(drop=True)
         win.index += 1
         st.dataframe(win)
+         #plot        
+        #df1=df1.drop_duplicates()
+        # ax=px.bar(win,x='Service_Area',y='Company_Name',facet_col='Band',color='Band',facet_col_wrap=1,
+        #           text='Company_Name',color_continuous_scale=px.colors.sequential.thermal,labels={'Company_Name':'Name of TSP'})
+        ax=px.bar(win,x='Service_Area',facet_col='Band',color='Band',facet_col_wrap=1,hover_name='Company_Name',
+                  text='Company_Name',color_continuous_scale=px.colors.sequential.thermal,labels={'count':'Count of TSPs in each LSA'})
 
+        ax.update_layout(
+            autosize=False,
+            width=800,
+            height=700,
+        )#.update_traces(marker=dict(color='red'))        
+        st.plotly_chart(ax,  theme=None)
     with freq:
         #st.dataframe(df[['Band','Service_Area','Company_Name','Uplink_Start','Uplink_Stop']])
         #do a groupby to agregate the frequencies
