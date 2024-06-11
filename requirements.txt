@@ -3,6 +3,6 @@ streamlit-option-menu
 pillow
 pandas
 numpy
-plotly
+plotly_express
 matplotlib
 openpyxl
