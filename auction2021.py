@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import plotly_express as px
 def app():
     linkedinlink = '[DoT Website](https://dot.gov.in/spectrum-management/2463)'
     auction_timetable='[Time Table](https://dot.gov.in/sites/default/files/Revised%20Auction%20table_0.pdf)'
@@ -77,7 +78,19 @@ def app():
             .drop_duplicates(subset=['Service_Area','Band','Company_Name']).reset_index(drop=True)
         win.index += 1
         st.dataframe(win)
+         #plot       
+        # ax=px.bar(win,x='Service_Area',y='Company_Name',facet_col='Band',color='Band',facet_col_wrap=1,
+        #           text='Company_Name',color_continuous_scale=px.colors.sequential.Viridis,labels={'Company_Name':'Name of TSP'})
+        ax=px.bar(win,x='Service_Area',facet_col='Band',color='Band',facet_col_wrap=1,hover_name='Company_Name',
+                  text='Company_Name',color_continuous_scale=px.colors.sequential.Viridis,labels={'count':'Count of TSPs in each LSA'})
 
+        ax.update_layout(
+            autosize=False,
+            width=1400,
+            height=1900,
+        )#.update_traces(marker=dict(color='red'))
+       
+        st.plotly_chart(ax,  theme=None)
     with freq:
         #st.dataframe(df[['Band','Service_Area','Company_Name','Uplink_Start','Uplink_Stop']])
         #do a groupby to agregate the frequencies
