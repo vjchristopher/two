@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
-
+import plotly_express as px
+# import plotly.io as pio
+# import matplotlib.pyplot as plt
 def app():
     linkedinlink = '[DoT Website](https://dot.gov.in/spectrum-management/2463)'
     auction_timetable='[Auction Time Table](https://dot.gov.in/sites/default/files/Revised%20Auction%20table_0.pdf)'
@@ -73,8 +75,17 @@ def app():
         win=df[['Service_Area','Band','Company_Name']]\
             .drop_duplicates(subset=['Service_Area','Band','Company_Name']).reset_index(drop=True)
         win.index += 1
-        st.dataframe(win)
-
+        st.dataframe(win)        
+        ax=px.bar(win,x='Service_Area',facet_col='Band',color='Band',facet_col_wrap=1,hover_name='Company_Name',
+                  text='Company_Name',color_continuous_scale=px.colors.sequential.haline,labels={'count':'Count of TSPs in the LSA'})
+        ax.update_layout(
+            autosize=False,
+            width=1400,
+            height=700,
+        )#.update_traces(marker=dict(color='red'))
+       
+        st.plotly_chart(ax,  theme=None)
+       
     with freq:
         #st.dataframe(df[['Band','Service_Area','Company_Name','Start_Freq','Stop_Freq']])
         # dfg=df.groupby(['Service_Area','Band','Company_Name'],as_index=False)[['Uplink_Start','Uplink_Stop']].agg({'Uplink_Start':'min','Uplink_Stop':'max'})
