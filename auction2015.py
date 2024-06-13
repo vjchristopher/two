@@ -26,6 +26,8 @@ def app():
         st.subheader(":rainbow[Statistics for 2015 Auction]")
         st.markdown("###### 👉 2G/3G Auction")
         st.markdown("###### :key: Auction of multi bands- 800 MHz,900 MHz,1800 MHz & 2100 MHz")
+        st.markdown("###### :gem: Quantum of Spectrum put to auction: :blue[470.75 MHz]")
+        st.markdown("###### :battery: Quantum of Spectrum sold: :green[418 MHz] ")
         st.markdown("###### :bell: 89 percent spectrum was sold")
         st.markdown("###### :nazar_amulet: Auction Format - Simultaneous Multi Round Auction(SMRA)")
         st.markdown("###### :chopsticks: Eight bidders participated in the auction")
