@@ -30,7 +30,7 @@ def app():
         st.markdown("###### :key: Auction of multi bands-600,700,800,900,1800,2100,2300,2500,3300,26000 MHz")
         st.markdown("###### :gem: Quantum of Spectrum put to auction: :blue[72097.85 MHz]")
         st.markdown("###### :battery: Quantum of Spectrum sold: :green[51236.2 MHz] ")
-        st.markdown("###### :bell: 28 percent spectrum was sold")
+        st.markdown("###### :bell: 71 percent spectrum was sold")
         st.markdown("###### :nazar_amulet: Auction Format - Simultaneous Multi Round Auction(SMRA)")
         st.markdown("###### :chopsticks: Four bidders participated in the auction")
         st.markdown("###### :jigsaw: All four bidders won spectrum")
