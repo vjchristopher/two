@@ -96,7 +96,7 @@ def app():
         dfg=pd.read_csv('final_results_2010_grouped_processed.csv')
         dfg.index+=1
         st.dataframe(dfg, column_config={
-        "Frequency-Quantum": st.column_config.Column(
+        "Frequency, Quantum": st.column_config.Column(
             width="medium"
         )
     })
