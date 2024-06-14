@@ -102,7 +102,7 @@ def app():
         
         dfg.index+=1
         st.dataframe(dfg, column_config={
-        "Frequency-Quantum": st.column_config.Column(
+        "Frequency, Quantum": st.column_config.Column(
             width="large"
         )
         })
