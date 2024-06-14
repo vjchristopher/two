@@ -33,6 +33,7 @@ def app():
         #st.markdown("###### :bell: 28 percent spectrum was sold")
         st.markdown("###### :nazar_amulet: Auction Format - Simultaneous Multi Round Auction(SMRA)")
         st.markdown("###### :chopsticks: Three bidders registered to particpate in the auction")
+        st.markdown("###### :cake: Auction to start on 25th June, 2024")
         #st.markdown("###### :jigsaw: All four bidders won spectrum")
         #st.markdown("###### :candy: Adani Networks bought spectrum only in 26 GHz")     
         #st.markdown("###### :beer: Spectrum in 600 MHz,3300 MHz and 26 GHz offered first time.")   
