@@ -32,7 +32,7 @@ def app():
         #st.markdown("##### ⚒️   - 600,700,800,900,1800,2100,2300,2500,3300,26000 MHz")
         #st.markdown("###### :bell: 28 percent spectrum was sold")
         st.markdown("###### :nazar_amulet: Auction Format - Simultaneous Multi Round Auction(SMRA)")
-        st.markdown("###### :chopsticks: Three bidders participated in the auction")
+        st.markdown("###### :chopsticks: Three bidders registered to particpate in the auction")
         #st.markdown("###### :jigsaw: All four bidders won spectrum")
         #st.markdown("###### :candy: Adani Networks bought spectrum only in 26 GHz")     
         #st.markdown("###### :beer: Spectrum in 600 MHz,3300 MHz and 26 GHz offered first time.")   
