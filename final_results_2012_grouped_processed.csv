@@ -1,5 +1,6 @@
 Service_Area,Band,Company_Name,"Frequency, Quantum"
-"Andhra Pradesh",1800,Telewings,"[[(1719.2- 1724.2)], [5.0]]"
+"Andhra
+ Pradesh",1800,Telewings,"[[(1719.2- 1724.2)], [5.0]]"
 Assam,1800,Bharti Airtel,"[[(1725.1- 1726.35)], [1.25]]"
 Assam,1800,Idea,"[[(1735.2- 1740.2)], [5.0]]"
 Assam,1800,Vodafone,"[[(1722.6- 1723.85), (1726.35- 1727.6)], [1.25,1.25]]"
@@ -11,13 +12,18 @@ Gujarat,1800,Telewings,"[[(1738.6- 1743.6)], [5.0]]"
 Gujarat,1800,Videocon,"[[(1710.2- 1715.2)], [5.0]]"
 Haryana,1800,Videocon,"[[(1719.6- 1724.6)], [5.0]]"
 Haryana,1800,Vodafone,"[[(1760.5- 1763.0)], [2.5]]"
-"Himachal Pradesh",1800,Vodafone,"[[(1728.9- 1730.15)], [1.25]]"
-"Jammu & Kashmir",1800,Idea,"[[(1720.4- 1725.4)], [5.0]]"
-"Jammu & Kashmir",1800,Vodafone,"[[(1761.4- 1763.9)], [2.5]]"
+"Himachal 
+Pradesh",1800,Vodafone,"[[(1728.9- 1730.15)], [1.25]]"
+"Jammu &
+ Kashmir",1800,Idea,"[[(1720.4- 1725.4)], [5.0]]"
+"Jammu &
+ Kashmir",1800,Vodafone,"[[(1761.4- 1763.9)], [2.5]]"
 Kerala,1800,Vodafone,"[[(1722.95- 1724.2)], [1.25]]"
 Kolkata,1800,Idea,"[[(1735.8- 1740.8)], [5.0]]"
-"Madhya Pradesh",1800,Videocon,"[[(1718.4- 1723.4)], [5.0]]"
-"Madhya Pradesh",1800,Vodafone,"[[(1738.0- 1739.25), (1740.5- 1741.75)], [1.25, 1.25]]"
+"Madhya
+ Pradesh",1800,Videocon,"[[(1718.4- 1723.4)], [5.0]]"
+"Madhya
+ Pradesh",1800,Vodafone,"[[(1738.0- 1739.25), (1740.5- 1741.75)], [1.25, 1.25]]"
 Maharashtra,1800,Telewings,"[[(1753.8- 1758.8)], [5.0]]"
 Maharashtra,1800,Vodafone,"[[(1760.05- 1761.3)], [1.25]]"
 North East,1800,Idea,"[[(1734.0- 1739.0)], [5.0]]"
@@ -26,11 +32,17 @@ Orissa,1800,Idea,"[[(1710.2- 1715.2)], [5.0]]"
 Orissa,1800,Vodafone,"[[(1715.2- 1716.45), (1718.95- 1720.2)], [1.25, 1.25]]"
 Punjab,1800,Vodafone,"[[(1755.65- 1756.9)], [1.25]]"
 Tamil Nadu,1800,Idea,"[[(1733.4- 1738.4)], [5.0]]"
-"Uttar Pradesh (W)",1800,Telewings,"[[(1738.6- 1743.6)], [5.0]]"
-"Uttar Pradesh (W)",1800,Videocon,"[[(1714.0- 1719.0)], [5.0]]"
-"Uttar Pradesh (W)",1800,Vodafone,"[[(1719.2- 1720.45), (1780.2- 1781.45)], [1.25, 1.25]]"
-"Uttar Pradesh (E)",1800,Telewings,"[[(1723.0- 1728.0)], [5.0]]"
-"Uttar Pradesh (E)",1800,Videocon,"[[(1728.0- 1733.0)], [5.0]]"
-"Uttar Pradesh (E)",1800,Vodafone,"[[(1742.2- 1743.45)], [1.25]]"
+"Uttar Pradesh
+ (W)",1800,Telewings,"[[(1738.6- 1743.6)], [5.0]]"
+"Uttar Pradesh
+ (W)",1800,Videocon,"[[(1714.0- 1719.0)], [5.0]]"
+"Uttar Pradesh
+ (W)",1800,Vodafone,"[[(1719.2- 1720.45), (1780.2- 1781.45)], [1.25, 1.25]]"
+"Uttar Pradesh 
+(E)",1800,Telewings,"[[(1723.0- 1728.0)], [5.0]]"
+"Uttar Pradesh 
+(E)",1800,Videocon,"[[(1728.0- 1733.0)], [5.0]]"
+"Uttar Pradesh 
+(E)",1800,Vodafone,"[[(1742.2- 1743.45)], [1.25]]"
 West Bengal,1800,Idea,"[[(1721.2- 1726.2), (1759.6- 1760.85)], [5.0, 1.25]]"
 West Bengal,1800,Vodafone,"[[(1762.1- 1764.6)], [2.5]]"
