@@ -1,4 +1,4 @@
-Service_Area,Band,Company_Name,Frequency-Quantum
+Service_Area,Band,Company_Name,"Frequency, Quantum"
 Gujarat,800,Reliance Jio,"[[(829.935- 831.165), (839.445- 843.135)], [1.23, 3.69]]"
 Punjab,800,Reliance Jio,"[[825.945, 829.635], [3.69]]"
 Rajasthan,800,Reliance Jio,"[[827.175, 832.095], [4.92]]"
