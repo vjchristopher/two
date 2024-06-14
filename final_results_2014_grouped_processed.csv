@@ -1,4 +1,4 @@
-Service_Area,Band,Company_Name,Frequency-Quantum
+Service_Area,Band,Company_Name,"Frequency,Quantum"
 Delhi,900,Bharti Airtel,"[[900.1- 906.1],[6.0]]"
 Delhi,900,Idea,"[[890.1- 895.1],[5.0]]"
 Delhi,900,Vodafone,"[[895.1- 900.1],[5.0]]"
