@@ -1,4 +1,4 @@
-Service_Area,Band,Company_Name,Frequency-Quantum
+Service_Area,Band,Company_Name,"Frequency,Quantum"
 Delhi,800,SSTL,"[[828.405- 829.635,840.975- 843.435],[1.23, 2.46]]"
 Gujarat,800,SSTL,"[[827.175- 829.635, 835.455- 836.685],[2.46, 1.23]]"
 Karnataka,800,SSTL,"[[828.405- 829.635, 840.975- 843.435],[1.23, 2.46]]"
