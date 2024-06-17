@@ -1,0 +1,140 @@
+,Service_Area,Band,Company_Name,"Frequency, Quantum",Freq_slices
+0,Andhra Pradesh,800,Reliance Jio,"825.95-830.87,835.46-836.69,4.92,1.23",825.95-830.87
+1,Andhra Pradesh,800,Reliance Jio,"825.95-830.87,835.46-836.69,4.92,1.23",835.46-836.69
+2,Bihar,800,Reliance Jio,"833.0-837.92,4.92",833.0-837.92
+3,Delhi,800,Reliance Jio,"824.42-828.11,829.94-834.86,3.69,4.92",824.42-828.11
+4,Delhi,800,Reliance Jio,"824.42-828.11,829.94-834.86,3.69,4.92",829.94-834.86
+5,Gujarat,800,Reliance Jio,"824.42-826.88,829.94-832.4,2.46,2.46",824.42-826.88
+6,Gujarat,800,Reliance Jio,"824.42-826.88,829.94-832.4,2.46,2.46",829.94-832.4
+7,Haryana,800,Bharti Airtel Limited,"824.42-825.65,825.95-827.18,833.93-835.16,1.23,1.23,1.23",824.42-825.65
+8,Haryana,800,Bharti Airtel Limited,"824.42-825.65,825.95-827.18,833.93-835.16,1.23,1.23,1.23",825.95-827.18
+9,Haryana,800,Bharti Airtel Limited,"824.42-825.65,825.95-827.18,833.93-835.16,1.23,1.23,1.23",833.93-835.16
+10,Haryana,800,Reliance Jio,"827.48-831.17,832.7-833.93,3.69,1.23",827.48-831.17
+11,Haryana,800,Reliance Jio,"827.48-831.17,832.7-833.93,3.69,1.23",832.7-833.93
+12,HimachalPradesh,800,Reliance Jio,"825.95-829.64,829.94-831.17,3.69,1.23",825.95-829.64
+13,HimachalPradesh,800,Reliance Jio,"825.95-829.64,829.94-831.17,3.69,1.23",829.94-831.17
+14,Karnataka,800,Reliance Jio,"824.42-826.88,829.94-832.4,835.46-840.38,2.46,2.46,4.92",824.42-826.88
+15,Karnataka,800,Reliance Jio,"824.42-826.88,829.94-832.4,835.46-840.38,2.46,2.46,4.92",829.94-832.4
+16,Karnataka,800,Reliance Jio,"824.42-826.88,829.94-832.4,835.46-840.38,2.46,2.46,4.92",835.46-840.38
+17,Kerala,800,Reliance Jio,"824.42-828.11,829.94-831.17,835.46-840.38,3.69,1.23,4.92",824.42-828.11
+18,Kerala,800,Reliance Jio,"824.42-828.11,829.94-831.17,835.46-840.38,3.69,1.23,4.92",829.94-831.17
+19,Kerala,800,Reliance Jio,"824.42-828.11,829.94-831.17,835.46-840.38,3.69,1.23,4.92",835.46-840.38
+20,Kolkata,800,Reliance Jio,"825.95-828.41,828.71-831.17,838.52-843.44,2.46,2.46,4.92",825.95-828.41
+21,Kolkata,800,Reliance Jio,"825.95-828.41,828.71-831.17,838.52-843.44,2.46,2.46,4.92",828.71-831.17
+22,Kolkata,800,Reliance Jio,"825.95-828.41,828.71-831.17,838.52-843.44,2.46,2.46,4.92",838.52-843.44
+23,Madhya Pradesh 800,800,Bharti Airtel Limited,"824.42-826.88,827.48-829.94,2.46,2.46",824.42-826.88
+24,Madhya Pradesh 800,800,Bharti Airtel Limited,"824.42-826.88,827.48-829.94,2.46,2.46",827.48-829.94
+25,Madhya Pradesh 800,800,Reliance Jio,"835.46-840.38,4.92",835.46-840.38
+26,Maharashtra,800,Bharti Airtel Limited,"832.7-835.16,2.46",832.7-835.16
+27,Maharashtra,800,Reliance Jio,"827.48-832.4,835.76-840.68,4.92,4.92",827.48-832.4
+28,Maharashtra,800,Reliance Jio,"827.48-832.4,835.76-840.68,4.92,4.92",835.76-840.68
+29,Mumbai,800,Reliance Jio,"827.48-832.4,837.92-840.38,4.92,2.46",827.48-832.4
+30,Mumbai,800,Reliance Jio,"827.48-832.4,837.92-840.38,4.92,2.46",837.92-840.38
+31,Odisha,800,Reliance Jio,"825.95-829.64,834.23-835.46,3.69,1.23",825.95-829.64
+32,Odisha,800,Reliance Jio,"825.95-829.64,834.23-835.46,3.69,1.23",834.23-835.46
+33,Punjab,800,Reliance Jio,"831.77-835.46,839.75-842.21,3.69,2.46",831.77-835.46
+34,Punjab,800,Reliance Jio,"831.77-835.46,839.75-842.21,3.69,2.46",839.75-842.21
+35,Rajasthan,800,Reliance Jio,"829.94-831.17,837.92-841.61,1.23,3.69",829.94-831.17
+36,Rajasthan,800,Reliance Jio,"829.94-831.17,837.92-841.61,1.23,3.69",837.92-841.61
+37,Tamil Nadu,800,Reliance Jio,"824.42-826.88,829.94-832.4,835.46-840.38,2.46,2.46,4.92",824.42-826.88
+38,Tamil Nadu,800,Reliance Jio,"824.42-826.88,829.94-832.4,835.46-840.38,2.46,2.46,4.92",829.94-832.4
+39,Tamil Nadu,800,Reliance Jio,"824.42-826.88,829.94-832.4,835.46-840.38,2.46,2.46,4.92",835.46-840.38
+40,Uttar Pradesh(East),800,Reliance Jio,"833.0-837.92,4.92",833.0-837.92
+41,Uttar Pradesh(West),800,Bharti Airtel Limited,"824.42-828.11,836.69-837.92,3.69,1.23",824.42-828.11
+42,Uttar Pradesh(West),800,Bharti Airtel Limited,"824.42-828.11,836.69-837.92,3.69,1.23",836.69-837.92
+43,Uttar Pradesh(West),800,Reliance Jio,"829.94-834.86,4.92",829.94-834.86
+44,West Bengal,800,Reliance Jio,"824.42-826.88,827.18-828.41,828.71-831.17,837.92-841.61,2.46,1.23,2.46,3.69",824.42-826.88
+45,West Bengal,800,Reliance Jio,"824.42-826.88,827.18-828.41,828.71-831.17,837.92-841.61,2.46,1.23,2.46,3.69",827.18-828.41
+46,West Bengal,800,Reliance Jio,"824.42-826.88,827.18-828.41,828.71-831.17,837.92-841.61,2.46,1.23,2.46,3.69",828.71-831.17
+47,West Bengal,800,Reliance Jio,"824.42-826.88,827.18-828.41,828.71-831.17,837.92-841.61,2.46,1.23,2.46,3.69",837.92-841.61
+48,Bihar,900,Bharti Airtel Limited,"903.7-907.1,3.4",903.7-907.1
+49,Gujarat,900,Bharti Airtel Limited,"901.1-902.5,910.5-912.1,913.5-914.1,914.3-914.9,1.4,1.6,0.6,0.6",901.1-902.5
+50,Gujarat,900,Bharti Airtel Limited,"901.1-902.5,910.5-912.1,913.5-914.1,914.3-914.9,1.4,1.6,0.6,0.6",910.5-912.1
+51,Gujarat,900,Bharti Airtel Limited,"901.1-902.5,910.5-912.1,913.5-914.1,914.3-914.9,1.4,1.6,0.6,0.6",913.5-914.1
+52,Gujarat,900,Bharti Airtel Limited,"901.1-902.5,910.5-912.1,913.5-914.1,914.3-914.9,1.4,1.6,0.6,0.6",914.3-914.9
+53,HimachalPradesh,900,Bharti Airtel Limited,"904.5-907.1,2.6",904.5-907.1
+54,Kerala,900,Bharti Airtel Limited,"902.5-907.1,4.6",902.5-907.1
+55,North East,900,Bharti Airtel Limited,"912.1-913.3,1.2",912.1-913.3
+56,Odisha,900,Bharti Airtel Limited,"903.3-907.1,3.8",903.3-907.1
+57,Tamil Nadu,900,Bharti Airtel Limited,"902.1-907.1,5.0",902.1-907.1
+58,Tamil Nadu,900,Vodafone Idealimited,"897.1-902.1,5.0",897.1-902.1
+59,Uttar Pradesh(East),900,Bharti Airtel Limited,"902.1-907.1,5.0",902.1-907.1
+60,West Bengal,900,Bharti Airtel Limited,"904.3-907.1,2.8",904.3-907.1
+61,West Bengal,900,Vodafone Idealimited,"903.5-904.3,0.8",903.5-904.3
+62,Andhra Pradesh,1800,Reliance Jio,"1754.9-1759.1,4.2",1754.9-1759.1
+63,Assam,1800,Reliance Jio,"1756.3-1760.1,1761.9-1762.7,3.8,0.8",1756.3-1760.1
+64,Assam,1800,Reliance Jio,"1756.3-1760.1,1761.9-1762.7,3.8,0.8",1761.9-1762.7
+65,Bihar,1800,Bharti Airtel Limited,"1761.7-1764.5,2.8",1761.7-1764.5
+66,Bihar,1800,Reliance Jio,"1756.7-1761.7,5.0",1756.7-1761.7
+67,Delhi,1800,Reliance Jio,"1743.3-1747.9,4.6",1743.3-1747.9
+68,Gujarat,1800,Reliance Jio,"1747.1-1751.1,4.0",1747.1-1751.1
+69,Haryana,1800,Reliance Jio,"1741.7-1746.7,5.0",1741.7-1746.7
+70,HimachalPradesh,1800,Bharti Airtel Limited,"1742.1-1746.9,4.8",1742.1-1746.9
+71,Jammu &Kashmir,1800,Bharti Airtel Limited,"1749.1-1759.1,10.0",1749.1-1759.1
+72,Karnataka,1800,Bharti Airtel Limited,"1735.7-1746.9,11.2",1735.7-1746.9
+73,Karnataka,1800,Reliance Jio,"1752.3-1757.3,5.0",1752.3-1757.3
+74,Karnataka,1800,Vodafone Idealimited,"1757.3-1761.3,4.0",1757.3-1761.3
+75,Kerala,1800,Bharti Airtel Limited,"1745.3-1750.3,5.0",1745.3-1750.3
+76,Kerala,1800,Reliance Jio,"1740.3-1745.3,5.0",1740.3-1745.3
+77,Kolkata,1800,Bharti Airtel Limited,"1752.3-1753.3,1.0",1752.3-1753.3
+78,Madhya Pradesh 1800,1800,Bharti Airtel Limited,"1746.1-1750.3,4.2",1746.1-1750.3
+79,Madhya Pradesh 1800,1800,Reliance Jio,"1750.3-1753.9,3.6",1750.3-1753.9
+80,Maharashtra,1800,Reliance Jio,"1742.7-1747.7,5.0",1742.7-1747.7
+81,Mumbai,1800,Reliance Jio,"1750.7-1754.1,3.4",1750.7-1754.1
+82,North East,1800,Reliance Jio,"1761.1-1764.7,3.6",1761.1-1764.7
+83,Odisha,1800,Bharti Airtel Limited,"1753.5-1754.3,1758.7-1760.5,0.8,1.8",1753.5-1754.3
+84,Odisha,1800,Bharti Airtel Limited,"1753.5-1754.3,1758.7-1760.5,0.8,1.8",1758.7-1760.5
+85,Odisha,1800,Reliance Jio,"1748.5-1753.5,5.0",1748.5-1753.5
+86,Punjab,1800,Bharti Airtel Limited,"1741.1-1746.1,5.0",1741.1-1746.1
+87,Punjab,1800,Reliance Jio,"1746.1-1750.9,4.8",1746.1-1750.9
+88,Tamil Nadu,1800,Bharti Airtel Limited,"1743.5-1758.5,15.0",1743.5-1758.5
+89,Tamil Nadu,1800,Reliance Jio,"1761.5-1764.7,3.2",1761.5-1764.7
+90,Uttar Pradesh(East),1800,Bharti Airtel Limited,"1750.9-1754.1,3.2",1750.9-1754.1
+91,Uttar Pradesh(East),1800,Reliance Jio,"1747.3-1750.9,3.6",1747.3-1750.9
+92,Uttar Pradesh(East),1800,Vodafone Idealimited,"1754.1-1755.5,1.4",1754.1-1755.5
+93,Uttar Pradesh(West),1800,Bharti Airtel Limited,"1746.7-1749.7,3.0",1746.7-1749.7
+94,Uttar Pradesh(West),1800,Reliance Jio,"1741.7-1746.7,5.0",1741.7-1746.7
+95,Uttar Pradesh(West),1800,Vodafone Idealimited,"1749.7-1750.3,0.6",1749.7-1750.3
+96,West Bengal,1800,Bharti Airtel Limited,"1754.3-1757.7,1762.1-1762.5,3.4,0.4",1754.3-1757.7
+97,West Bengal,1800,Bharti Airtel Limited,"1754.3-1757.7,1762.1-1762.5,3.4,0.4",1762.1-1762.5
+98,Assam,2100,Bharti Airtel Limited,"1944.0-1949.0,5.0",1944.0-1949.0
+99,North East,2100,Bharti Airtel Limited,"1944.0-1949.0,5.0",1944.0-1949.0
+100,West Bengal,2100,Bharti Airtel Limited,"1939.0-1944.0,5.0",1939.0-1944.0
+101,Andhra Pradesh,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
+102,Assam,2300,Bharti Airtel Limited,"2370.0-2380.0,10.0",2370.0-2380.0
+103,Assam,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
+104,Bihar,2300,Bharti Airtel Limited,"2370.0-2380.0,10.0",2370.0-2380.0
+105,Bihar,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
+106,Delhi,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
+107,Gujarat,2300,Bharti Airtel Limited,"2370.0-2380.0,10.0",2370.0-2380.0
+108,Gujarat,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
+109,Haryana,2300,Bharti Airtel Limited,"2360.0-2380.0,20.0",2360.0-2380.0
+110,Haryana,2300,Reliance Jio,"2320.0-2340.0,20.0",2320.0-2340.0
+111,Himachal Pradesh,2300,Bharti Airtel Limited,"2370.0-2380.0,10.0",2370.0-2380.0
+112,Himachal Pradesh,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
+113,Jammu & Kashmir,2300,Bharti Airtel Limited,"2360.0-2380.0,20.0",2360.0-2380.0
+114,Jammu & Kashmir,2300,Reliance Jio,"2320.0-2340.0,20.0",2320.0-2340.0
+115,Karnataka,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
+116,Kerala,2300,Bharti Airtel Limited,"2370.0-2380.0,10.0",2370.0-2380.0
+117,Kerala,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
+118,Kolkata,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
+119,Madhya Pradesh,2300,Bharti Airtel Limited,"2370.0-2380.0,10.0",2370.0-2380.0
+120,Madhya Pradesh,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
+121,Maharashtra,2300,Bharti Airtel Limited,"2370.0-2380.0,10.0",2370.0-2380.0
+122,Maharashtra,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
+123,Mumbai,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
+124,North East,2300,Bharti Airtel Limited,"2370.0-2380.0,10.0",2370.0-2380.0
+125,North East,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
+126,Odisha,2300,Bharti Airtel Limited,"2370.0-2380.0,10.0",2370.0-2380.0
+127,Odisha,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
+128,Punjab,2300,Bharti Airtel Limited,"2360.0-2380.0,20.0",2360.0-2380.0
+129,Punjab,2300,Reliance Jio,"2320.0-2340.0,20.0",2320.0-2340.0
+130,Rajasthan,2300,Bharti Airtel Limited,"2360.0-2380.0,20.0",2360.0-2380.0
+131,Rajasthan,2300,Reliance Jio,"2320.0-2340.0,20.0",2320.0-2340.0
+132,Tamil Nadu,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
+133,Uttar Pradesh (East),2300,Bharti Airtel Limited,"2360.0-2380.0,20.0",2360.0-2380.0
+134,Uttar Pradesh (East),2300,Reliance Jio,"2320.0-2340.0,20.0",2320.0-2340.0
+135,Uttar Pradesh (West),2300,Bharti Airtel Limited,"2360.0-2380.0,20.0",2360.0-2380.0
+136,Uttar Pradesh (West),2300,Reliance Jio,"2320.0-2340.0,20.0",2320.0-2340.0
+137,West Bengal,2300,Bharti Airtel Limited,"2370.0-2380.0,10.0",2370.0-2380.0
+138,West Bengal,2300,Reliance Jio,"2360.0-2370.0,10.0",2360.0-2370.0
