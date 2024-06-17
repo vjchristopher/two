@@ -108,6 +108,16 @@ def app():
             width="medium"
         )
         })
+        df_slice=pd.read_csv('Slices_2012_processed.csv')
+        fig = px.treemap(df_slice, path=['Service_Area','Company_Name','Freq_slices'], title='Spectrum slices acquired by the TSPs in 2012 Auction',
+                 )
+        fig.update_layout(
+        autosize=False,
+        width=700,
+        height=1200)
+ 
+        st.plotly_chart(fig, theme="streamlit")
+        
     with revenue:
         #drop duplicates for display.
         
