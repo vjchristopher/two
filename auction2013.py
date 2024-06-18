@@ -117,6 +117,7 @@ def app():
         autosize=False,
         width=700,
         height=1200)
+        st.plotly_chart(fig, theme="streamlit")
 
     with revenue:
         #drop duplicates for display.
