@@ -95,7 +95,7 @@ def app():
             height=700,
         )#.update_traces(marker=dict(color='red'))
        
-        st.plotly_chart(ax,  theme=None)
+        st.plotly_chart(ax,  theme='streamlit')
     with freq:
         #st.dataframe(df[['Band','Service_Area','Company_Name','Uplink_Start','Uplink_Stop']])
         #do a groupby to agregate the frequencies
