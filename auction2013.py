@@ -95,7 +95,7 @@ def app():
             height=700,
         )#.update_traces(marker=dict(color='red'))
        
-        st.plotly_chart(ax,  theme=None)
+        st.plotly_chart(ax,  theme='streamlit')
     with freq:
         #st.dataframe(df[['Band','Service_Area','Company_Name','Uplink_Start','Uplink_Stop']])
         #do a groupby to agregate the frequencies
@@ -106,10 +106,18 @@ def app():
         
         dfg.index+=1
         st.dataframe(dfg, column_config={
-        "Frequency-Quantum": st.column_config.Column(
+        "Frequency, Quantum": st.column_config.Column(
             width="large"
         )
         })
+        df_slice=pd.read_csv('Slices_2013_processed.csv')
+        fig = px.treemap(df_slice, path=['Service_Area','Company_Name','Freq_slices'], title='Spectrum slices acquired by the TSPs in 2013 Auction',
+                 )
+        fig.update_layout(
+        autosize=False,
+        width=700,
+        height=1200)
+        st.plotly_chart(fig, theme="streamlit")
 
     with revenue:
         #drop duplicates for display.
