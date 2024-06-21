@@ -123,14 +123,45 @@ def app():
         
         price=df[['Service_Area','Band','Company_Name','Winning_Price']].reset_index(drop=True)
         
+        st.subheader('1. Consolidated cash outflow for each TSP from all LSAs')
+        gp=price.groupby(['Company_Name'])['Winning_Price'].sum().reset_index(drop=False)
+        gp.index+=1
+        #gp.loc[len(gp.index)]=['Total',100000]
+        my_table=st.dataframe(gp)
+        gross_total=gp['Winning_Price'].sum()
+        df2=pd.DataFrame({'Company_Name':['Gross Total'],'Winning_Price':[gross_total]})
+        my_table.add_rows(df2)
+        ax=px.bar(gp,y='Company_Name', x='Winning_Price',hover_name='Company_Name', orientation='h',text_auto='0',template='seaborn',
+         title='Winners of the Spectrum Auction',
+         labels={'Company_Name':'Winners in Auction','Winning_Price':'The payment committed by each TSP in Rs Crore at the end of Auction ' } )
+        ax.update_layout(
+        autosize=False,
+        width=800,
+        height=600,
+        ).update_traces(marker=dict(color='crimson'))
+
+        st.plotly_chart(ax, theme=None)
+
+       
         price_grp=price.groupby(['Company_Name','Band','Service_Area'],as_index=False)[['Winning_Price']].sum()
         price_grp.index+=1
-        st.subheader('1. Total cash outflow per TSP per LSA per Band')
+        st.subheader('2. Total cash outflow per TSP per LSA per Band')
         st.dataframe(price_grp)
+        fig = px.treemap(price_grp, path=['Service_Area','Band','Company_Name','Winning_Price'],values='Winning_Price',color='Winning_Price', 
+                 hover_data=['Service_Area'], color_continuous_scale='RdBu', labels={'Winning_Price':'Price in Rs.Crore',
+                 'Service_Area':'LSA','Winning_Price_sum':'Winning Price'},
+                 title='Payment Committed in Rs Crores by each TSP per band per LSA',
+                 )
+        fig.update_layout(
+            autosize=False,
+            width=1000,
+            height=1600)
         
-        st.subheader('2. Consolidated cash outflow for each TSP from all LSAs')
-        gp=price.groupby(['Company_Name'])['Winning_Price'].sum().reset_index()
-        gp.index+=1
-        st.dataframe(gp)
+        st.plotly_chart(fig, theme="streamlit")
+        
+
+        #Display the total
         st.write('',divider='grey')
-        st.subheader(f'3. Consolidated Revenue for Govt from all bidders : :green[Rs.{round(price_grp.Winning_Price.sum(),2)} Crores]')
+        st.subheader(f'3. Consolidated Revenue to Govt from all bidders : :green[Rs.{round(price_grp.Winning_Price.sum(),2)} Crores]')
+
+       
