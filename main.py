@@ -46,3 +46,8 @@ class MultipagesApp:
         if app=='Auction-2024':
             auction2024.app()
     run()
+col3, col4, col5 = st.columns([40,20,20])
+with col4:
+    st.markdown("""## :orange[Developed By ]""")
+with col5:    
+    st.image('logo.png', width=150)
