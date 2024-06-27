@@ -153,6 +153,7 @@ def app():
 
        
         price_grp=price.groupby(['Company_Name','Band','Service_Area'],as_index=False)[['Winning_Price']].sum()
+        price_grp.Winning_Price=round(price_grp.Winning_Price,2)
         price_grp.index+=1
         st.subheader('2. Total cash outflow per TSP per LSA per Band')
         st.dataframe(price_grp)
