@@ -163,6 +163,8 @@ def app():
         
 
         #Display the total
-        st.write('',divider='grey')
+        #st.write('',divider='grey')
+        st.divider(color='grey')
         st.subheader(f'3. Consolidated Revenue to Govt from all bidders : :green[Rs.{round(price_grp.Winning_Price.sum(),2)} Crores]')
     
+
