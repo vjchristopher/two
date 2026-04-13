@@ -16,6 +16,8 @@ def app():
     df['Service_Area']=df['Service_Area'].ffill()
     #df['Band']=df['Band'].fillna(method='ffill')
     df['Band']=df['Band'].ffill()
+    #df['Company_Name']=df['Company_Name'].fillna(method='ffill')
+    df['Company_Name']=df['Company_Name'].ffill()
     #df['Winning_Price']=df['Winning_Price'].fillna(method='ffill')
     df['Winning_Price']=df['Winning_Price'].ffill()
     spectrum_bands=['800 MHz','900 MHz','1800 MHz','2100 MHz']
