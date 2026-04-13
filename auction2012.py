@@ -14,11 +14,11 @@ def app():
 
     df=pd.read_csv('final_results_2012.csv')
     #df['Service_Area']=df['Service_Area'].fillna(method='ffill')
-    df['Service_Area']=df['Service_Area'].ffill
+    df['Service_Area']=df['Service_Area'].ffill()
     #df['Band']=df['Band'].fillna(method='ffill')
-    df['Band']=df['Band'].ffill
+    df['Band']=df['Band'].ffill()
     #df['Winning_Price']=df['Winning_Price'].fillna(method='ffill')
-    df['Winning_Price']=df['Winning_Price'].ffill
+    df['Winning_Price']=df['Winning_Price'].ffill()
     spectrum_bands=['800 MHz','1800 MHz']
     remarks=['❌','✔️']
     operators=df['Company_Name'].unique().tolist()
