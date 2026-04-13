@@ -17,9 +17,12 @@ def app():
     col_names=['Service_Area','Band','Winning_Price','Company_Name','Uplink_Start','Uplink_Stop','Downlink_Start','Downlink_Stop']
     df=pd.read_csv('final_results_2010.csv')
 
-    df['Service_Area']=df['Service_Area'].fillna(method='ffill')
-    df['Band']=df['Band'].fillna(method='ffill')
-    df['Winning_Price']=df['Winning_Price'].fillna(method='ffill')
+    #df['Service_Area']=df['Service_Area'].fillna(method='ffill')
+    df['Service_Area']=df['Service_Area'].ffill
+    #df['Band']=df['Band'].fillna(method='ffill')
+    df['Band']=df['Band'].ffill
+    #df['Winning_Price']=df['Winning_Price'].fillna(method='ffill')
+    df['Winning_Price']=df['Winning_Price'].ffill
     spectrum_bands=['2100 MHz','2300 MHz']
     remarks=['✔️','✔️']
     operators=df['Company_Name'].unique().tolist()
