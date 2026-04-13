@@ -11,11 +11,15 @@ def app():
     with col2:
          st.write("""## Spectrum Auction In Year 2022""")
 
-    df=pd.read_csv('final_results_2022.csv')
-    df['Service_Area']=df['Service_Area'].fillna(method='ffill')
-    df['Band']=df['Band'].fillna(method='ffill')
-    df['Company_Name']=df['Company_Name'].fillna(method='ffill')
-    df['Winning_Price']=df['Winning_Price'].fillna(method='ffill')
+    df=pd.read_csv('final_results_2022.csv')    
+    #df['Service_Area']=df['Service_Area'].fillna(method='ffill')
+    df['Service_Area']=df['Service_Area'].ffill()
+    #df['Band']=df['Band'].fillna(method='ffill')
+    df['Band']=df['Band'].ffill()
+    #df['Company_Name']=df['Company_Name'].fillna(method='ffill')
+    df['Company_Name']=df['Company_Name'].ffill()
+    #df['Winning_Price']=df['Winning_Price'].fillna(method='ffill')
+    df['Winning_Price']=df['Winning_Price'].ffill()
     spectrum_bands=['600 MHz','700 MHz','800 MHz','900 MHz','1800 MHz','2100 MHz','2300 MHz','2500 MHz','3300 MHz','26 GHz']
     remarks=['❌','✔️','✔️','✔️','✔️','✔️','❌','✔️','✔️','✔️']
     operators=df['Company_Name'].unique().tolist()
